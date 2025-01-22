@@ -1,7 +1,7 @@
 # dockerize-Java-app-and-Deploy
 Aim of project: dockerizing  java application and deployment on ec2 server 
 
-1) install maven
+1) install maven : sudo apt install maven
 2) create WAR file wit command, using command : mvn clean package
      
 
@@ -15,15 +15,15 @@ Aim of project: dockerizing  java application and deployment on ec2 server
 
    ![image](https://github.com/user-attachments/assets/0fa87aef-10bd-4bab-8680-dd31bc9e03d8)
 
-4) inside cli login docker env
+4) inside cli login docker env : 
    sudo  docker login
 
 5) create docker image
      docker build -t flask-app:v2 .
 
-5) verify ur image
+5) verify ur image : 
      docker images
-6) run app
+6) run app : 
     docker run -it -p 8080:8080 flask-app:v2
    ![image](https://github.com/user-attachments/assets/d16fe58d-ff7c-45f0-b207-bca67dab6aaf)
 
