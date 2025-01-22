@@ -5,6 +5,8 @@ Aim of project: dockerizing  java application and deployment on ec2 server
 2) create WAR file wit command
      mvn clean package
 
+   
+
   ![image](https://github.com/user-attachments/assets/f726c09a-3a93-43fe-992a-55ee25c51f12)
 
 
