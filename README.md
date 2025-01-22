@@ -2,8 +2,8 @@
 Aim of project: dockerizing  java application and deployment on ec2 server 
 
 1) install maven
-2) create WAR file wit command
-     mvn clean package
+2) create WAR file wit command, using command : mvn clean package
+     
 
    
 
@@ -29,6 +29,6 @@ Aim of project: dockerizing  java application and deployment on ec2 server
 
 
 
-7) application running on port 8080
+7) application running on port 8080 ( write WAR file name after port number ) 
     
 ![image](https://github.com/user-attachments/assets/244a4f68-2dd9-485e-94b6-4a74e1fe9541)
